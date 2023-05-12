@@ -28,6 +28,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
+.menus {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .menus ul {
+    display: inline-flex;
+    list-style: none;
+  }
+  
+  .menus ul li {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .menus ul li a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .aktif, .menus ul li:hover {
+    background-color: grey;
+  }
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -118,7 +148,35 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    text-align: center;
+}
+  
+  .menu h3 {
+    margin-right: 10px;
+  }
+  
+  .menu li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .menu li span {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+
+
 
 /* footer section */
 footer {
